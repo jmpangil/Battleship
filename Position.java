@@ -1,8 +1,8 @@
 public class Position {
 
-  // Instance variables for the row and column coordinates
-  private int row;
-  private int col;
+  // Constant instance variables for the row and column coordinates
+  private final int row;
+  private final int col;
 
   // Parameterized constructor that initializes the row and column instance variables
   public Position(int row, int col) {
